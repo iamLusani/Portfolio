@@ -1,0 +1,31 @@
+:root {
+  --main-colour: #291c3a;
+  --homepage-darker-shade: #331c52;
+  --font-navi-colour: #8121d0;
+  --sub-colour: #dccfed;
+  --other-page-lighter-shade: #e1ebed;
+}
+body {
+  background-color: var(--homepage-darker-shade);
+  color: var(--font-navi-colour);
+}
+
+img {
+  border-radius: 100%;
+  width: 550px;
+  height: 400px;
+  margin-top: 10px;
+  display: flex;
+  margin-right: 100px;
+}
+h2 {
+  margin-top: 60px;
+  text-align: center;
+}
+.small {
+  font-size: 15px;
+  color: var(--sub-colour);
+}
+h1 {
+  font-size: 90px;
+}
