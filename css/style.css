@@ -11,7 +11,7 @@ body {
 }
 
 img {
-  border-radius: 100%;
+  border-radius: 25px;
   width: 550px;
   height: 400px;
   margin-top: 10px;
