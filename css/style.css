@@ -8,6 +8,7 @@
 body {
   background-color: var(--homepage-darker-shade);
   color: var(--font-navi-colour);
+  font-family: Oswald;
 }
 
 img {
@@ -22,10 +23,39 @@ h2 {
   margin-top: 60px;
   text-align: center;
 }
+
+h1 {
+  font-size: 90px;
+  text-align: center;
+  text-shadow: 2px 2px 5px rgb(243, 167, 167);
+  font-weight: 900;
+  font-family: Roboto;
+}
+p {
+  text-align: center;
+
+  font-size: 40px;
+}
+
+.container-footer {
+  width: 100%;
+  height: 100px;
+  background-color: var(--sub-colour);
+}
+
 .small {
   font-size: 15px;
   color: var(--sub-colour);
 }
-h1 {
-  font-size: 90px;
+.number-3 {
+  font-size: 65px;
+  color: var(--main-colour);
+  font-family: Roboto;
+  text-align: center;
+}
+.icons {
+  font-size: 36px;
+}
+.button-color {
+  background-color: var(--sub-colour);
 }
