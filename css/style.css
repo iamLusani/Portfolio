@@ -1,9 +1,9 @@
 :root {
-  --main-colour: #291c3a;
-  --homepage-darker-shade: #331c52;
-  --font-navi-colour: #8121d0;
+  --main-colour: #8834f5;
+  --homepage-darker-shade: #d5b6fd;
+  --font-navi-colour: #6201b1;
   --sub-colour: #dccfed;
-  --other-page-lighter-shade: #e1ebed;
+  --other-page-lighter-shade: #c4c6c7;
 }
 body {
   background-color: var(--homepage-darker-shade);
@@ -58,4 +58,13 @@ p {
 }
 .button-color {
   background-color: var(--sub-colour);
+}
+.about-container {
+  width: 100%;
+  height: 100%;
+}
+
+.skill-container {
+  width: 500px;
+  height: 150px;
 }
