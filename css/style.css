@@ -1,8 +1,17 @@
+@media (max-width: 465px) {
+  body {
+    margin: 60px auto;
+    max-width: 800px;
+  }
+  .h1-class {
+    font-size: 30px;
+  }
+}
 :root {
   --main-colour: #f3d4f0;
   --homepage-darker-shade: #350444;
   --font-navi-colour: #2e0330;
-  --sub-colour: #e6c5d5;
+  --sub-colour: #fdd6f7;
   --other-page-lighter-shade: #f55f99;
 }
 body {
@@ -39,12 +48,16 @@ p {
   color: var(--main-colour);
   font-family: Roboto;
   text-align: center;
+  text-shadow: 2px 2px 5px var(--other-page-lighter-shade);
 }
 .icons {
   font-size: 36px;
 }
 .color {
   background-color: var(--sub-colour);
+}
+.bg-colour {
+  background-color: #350444;
 }
 .first-container {
   margin-top: 100px;
@@ -58,4 +71,17 @@ p {
   margin-top: 50px;
   width: 300px;
   height: 10px;
+}
+.a {
+  color: var(--other-page-lighter-shade);
+}
+
+.a:hover {
+  color: var(--homepage-darker-shade);
+}
+.second-container {
+  margin-top: 200px;
+  width: 100%;
+  height: fit-content;
+  background-color: var(--sub-colour);
 }
