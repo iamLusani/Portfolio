@@ -1,10 +1,13 @@
-@media (max-width: 465px) {
+@media (max-width: 468px) {
   body {
     margin: 60px auto;
     max-width: 800px;
   }
   .h1-class {
     font-size: 30px;
+  }
+  .container-footer {
+    min-height: 200px;
   }
 }
 :root {
@@ -13,6 +16,7 @@
   --font-navi-colour: #2e0330;
   --sub-colour: #fdd6f7;
   --other-page-lighter-shade: #f55f99;
+  --lighter-shade-pink: rgb(247, 163, 219);
 }
 body {
   background-color: var(--font-navi-colour);
@@ -32,6 +36,11 @@ h1 {
 p {
   text-align: center;
   font-size: 40px;
+}
+img {
+  height: 100px;
+  border-radius: 50px;
+  width: 150px;
 }
 
 .container-footer {
@@ -84,4 +93,39 @@ p {
   width: 100%;
   height: fit-content;
   background-color: var(--sub-colour);
+  font-family: roboto;
+}
+.headin-2 {
+  margin-top: 0;
+  margin-left: 20px;
+}
+.paragraph {
+  text-align: left;
+  font-size: 20px;
+  border-bottom: 100px;
+}
+
+.wight {
+  font-size: 20px;
+}
+
+.slide-right {
+  border-top: 5px dotted violet;
+  border-width: 50px;
+}
+
+.second-fourth-container {
+  width: 100%;
+  height: 400px;
+  margin-top: 100px;
+  background-color: var(--lighter-shade-pink);
+  font-size: 25px;
+}
+.image {
+  width: 300px;
+  height: 250px;
+}
+
+.first {
+  background-color: rgb(255, 155, 222);
 }
