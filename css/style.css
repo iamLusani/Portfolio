@@ -1,11 +1,10 @@
-@media (max-width: 468px) {
+@media (max-width: 558px) {
   body {
     margin: 60px auto;
     max-width: 900px;
   }
   .width {
     max-width: 300px;
-    max-height: 200px;
   }
   .second-a {
     margin-right: 10px;
@@ -17,12 +16,12 @@
     min-height: 200px;
   }
   .navi {
-    width: 325px;
+    width: 100%;
     display: block;
     margin: 0 auto;
   }
   .size-font {
-    font-size: 5px;
+    font-size: 20px;
   }
   .circles {
     display: none;
@@ -36,7 +35,8 @@
     width: 90px;
   }
   .contact-icons {
-    font-size: 7px;
+    font-size: 15px;
+    margin-top: 100px;
   }
 }
 
