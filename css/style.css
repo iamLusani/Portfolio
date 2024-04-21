@@ -1,7 +1,14 @@
 @media (max-width: 468px) {
   body {
     margin: 60px auto;
-    max-width: 800px;
+    max-width: 900px;
+  }
+  .width {
+    max-width: 300px;
+    max-height: 200px;
+  }
+  .second-a {
+    margin-right: 10px;
   }
   .h1-class {
     font-size: 30px;
@@ -9,7 +16,30 @@
   .container-footer {
     min-height: 200px;
   }
+  .navi {
+    width: 325px;
+    display: block;
+    margin: 0 auto;
+  }
+  .size-font {
+    font-size: 5px;
+  }
+  .circles {
+    display: none;
+  }
+  img {
+    height: 50px;
+    width: 90px;
+  }
+  .image {
+    height: 50px;
+    width: 90px;
+  }
+  .contact-icons {
+    font-size: 7px;
+  }
 }
+
 :root {
   --main-colour: #f3d4f0;
   --homepage-darker-shade: #350444;
@@ -61,6 +91,7 @@ img {
 }
 .icons {
   font-size: 36px;
+  background-color: var(--other-page-lighter-shade);
 }
 .color {
   background-color: var(--sub-colour);
@@ -113,7 +144,9 @@ img {
   border-top: 5px dotted violet;
   border-width: 50px;
 }
-
+.me-twoo {
+  display: none;
+}
 .second-fourth-container {
   width: 100%;
   height: 400px;
@@ -128,4 +161,26 @@ img {
 
 .first {
   background-color: rgb(255, 155, 222);
+}
+.last-container {
+  width: 100%;
+  height: 600px;
+  margin-top: 100px;
+  background-color: rgb(223, 199, 223);
+}
+.nav-item {
+  padding: 0 15px;
+  text-align: end;
+}
+
+.social-links {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 100px;
+}
+.wrap {
+  width: 900px;
+  height: 150px;
+  background-color: #d9b5e4;
+  margin-top: 100px;
 }

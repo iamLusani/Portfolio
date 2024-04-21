@@ -31,7 +31,7 @@
   </head>
   <body>
     <div class="container">
-      <nav class="navbar navbar-expand-lg fixed-top color">
+      <nav class="navbar navbar-expand-lg fixed-top color navi">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">Miss LV</a>
           <button
@@ -53,16 +53,13 @@
               </li>
 
               <li class="nav-item">
-                <a class="nav-link a" href="#">About me</a>
+                <a class="nav-link a" href="#about-me">About me</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link a" href="#">Projects</a>
+                <a class="nav-link a" href="#projects">Projects</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link a" href="#">Contact me</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                <a class="nav-link a" href="#contect-me">Contact me</a>
               </li>
             </ul>
           </div>
@@ -79,7 +76,8 @@
         <small class="small">and I'm an</small>
       </h2>
       <div><h1 class="h1-class">Aspiring front-end developer</h1></div>
-      <p>Based in South Africa</p>
+
+      <p class="h1-class">Based in South Africa</p>
     </div>
     <div class="container text-center">
       <div class="row align-items-center"></div>
@@ -110,14 +108,14 @@
       <header>
         <div class="container">
           <div class="row">
-            <div class="col-20"><h1 class="h1-class">About me</h1></div>
+            <div class="col-20"><h1 class="h1-class" id="about-me">About me</h1></div>
             <div class="col-4">
               <img
                 src="images/Snapchat-922919905.jpg"
                 class="img-fluid"
                 alt="..." />
             </div>
-            <div class="col-md-6 col-sm-9 ms-lg-10">
+            <div class="col-md-6 col-sm-9 ms-lg-10 size-font">
               <h2 class="headin-2">Intro</h2>
               <br />
               <p class="paragraph">
@@ -134,46 +132,43 @@
 
       <div class="second-third-container d-flex justify-content-end">
         <div class=""></div>
-        <h2 class="headin-2 bounce-right slide-right">
+        <h2 class="headin-2 bounce-right slide-right circles">
           My skills <br />
           <small>Technelogies i've been working with</small>
         </h2>
+        <h2 class="me-twoo">My skills</h2>
       </div>
       <div class="d-flex justify-content-end grid gap-0 column-gap-8">
         <div>
           <i
-            class="fa-brands fa-html5 fa-beat icons p-2 g-col-6"
-            style="color: #de4f4f"></i>
+            class="fa-brands fa-html5 icons p-2 g-col-6"
+            style="color: #f7cece"></i>
         </div>
         <div>
           <i
-            class="fa-brands fa-js icons fa-beat p-2 g-col-6"
-            style="color: #093079"></i>
+            class="fa-brands fa-js icons p-2 g-col-6"
+            style="color: #c7d6f1"></i>
         </div>
         <div>
           <i
-            class="fa-solid fa-robot fa-fade icons p-2 g-col-6"
+            class="fa-solid fa-robot icons p-2 g-col-6"
             style="color: #07eaf1"></i>
         </div>
         <div>
           <i
-            class="fa-brands fa-css3-alt fa-beat icons p-2 g-col-6"
-            style="color: #4b2eee"></i>
+            class="fa-brands fa-css3-alt icons p-2 g-col-6"
+            style="color: #cec7f3"></i>
         </div>
+
         <div>
           <i
-            class="fa-brands fa-github fa-fade icons p-2 g-col-6"
-            style="color: #17e872"></i>
-        </div>
-        <div>
-          <i
-            class="fa-brands fa-bootstrap fa-fade icons p-2 g-col-6"
-            style="color: #a739db"></i>
+            class="fa-brands fa-bootstrap icons p-2 g-col-6"
+            style="color: #e6c3f7"></i>
         </div>
       </div>
     </div>
     <div class="second-fourth-container">
-      <h1>My projects</h1>
+      <h1 class="h1-class" id="projects">My projects</h1>
       <br /><br /><br />
 
       <div
@@ -187,18 +182,25 @@
                 alt="..." />
             </div>
             <div class="col-md-6 p-4 ps-md-0">
-              <h5 class="mt-0">Columns with stretched link</h5>
+              <h5 class="mt-0">World Clock</h5>
               <p class="wight">
-                Another instance of placeholder content for this other custom
-                component. It is intended to mimic what some real-world content
-                would look like, and we're using it here to give the component a
-                bit of body and size.
+                This project was created using HTML ,CSS and basic javascript.
+                The function of the this project is to give the accurate date
+                and time of selected option in drop-down list. An additonal
+                feature of this project would be the display of citites with
+                their local date and time.
               </p>
-              <a href="#" class="stretched-link">Go somewhere</a>
+              <a
+                href="https://clock-forworld-time.netlify.app/"
+                target="_blank"
+                class="stretched-link a"
+                >View my project ❤️</a
+              >
             </div>
           </div>
+          <hr />
 
-          <div class="row g-5 first position-relative mt-6">
+          <div class="row g-0 first position-relative mt-6">
             <div class="col-md-6 mb-md-0 p-md-4">
               <img
                 src="images/Screenshot 2024-04-09 224945.png"
@@ -206,37 +208,98 @@
                 alt="..." />
             </div>
             <div class="col-md-6 p-4 ps-md-0">
-              <h5 class="mt-0">Columns with stretched link</h5>
+              <h5 class="mt-0">Weather app</h5>
               <p class="wight">
-                Another instance of placeholder content for this other custom
-                component. It is intended to mimic what some real-world content
-                would look like, and we're using it here to give the component a
-                bit of body and size.
+                This project was created using HTML , CSS and basic
+                javascript.The function of this project is to display the
+                current weather and forcast of the city you typed in thr search
+                bar.
               </p>
-              <a href="#" class="stretched-link">Go somewhere</a>
+              <a
+                href="https://weathercheackapp.netlify.app/ "
+                target="_blank"
+                class="stretched-link a"
+                >View my project❤️</a
+              >
             </div>
           </div>
-          <br /><br />
-          <div class="row g-5 first position-relative mt-6">
-            <div class="col-md-6 mb-md-0 p-md-4">
-              <img
-                src="images/Screenshot 2024-04-18 183958.png"
-                class="w-80 image"
-                alt="..." />
-            </div>
-            <div class="col-md-6 p-4 ps-md-0">
-              <h5 class="mt-0">Columns with stretched link</h5>
-              <p class="wight">
-                Another instance of placeholder content for this other custom
-                component. It is intended to mimic what some real-world content
-                would look like, and we're using it here to give the component a
-                bit of body and size.
-              </p>
-              <a href="#" class="stretched-link">Go somewhere</a>
+          <div>
+            <hr />
+            <div class="row g-4 first position-relative mt-6">
+              <div class="col-md-6 mb-md-0 p-md-4">
+                <img
+                  src="images/Screenshot 2024-04-18 183958.png"
+                  class="w-80 image"
+                  alt="..." />
+              </div>
+              <div class="col-md-6 p-4 ps-md-0">
+                <h5 class="mt-0">Poem</h5>
+                <p class="wight">
+                  This project was created using Ai , HTML ,CSS and basic
+                  javascript. With this project I was able to prompt engineer
+                  the ai to generate a descriptive poem about flowers based on
+                  user-instruction
+                </p>
+                <a
+                  href="https://ai-poetry.netlify.app/"
+                  target="_blank"
+                  class="stretched-link a"
+                  >View my project❤️</a
+                >
+              </div>
             </div>
           </div>
         </div>
       </div>
+      <div class="last-container">
+        <h1 class="h1-class" id="contect-me">Contact me</h1>
+
+        <div class=" width container text-center wrap sm-1">
+          <div class="row">
+            <div class="col mt-5">Work Inquiry Let's work together</div>
+<div class="col-sm-7">
+              <div class="row">
+            <div class="col">
+              <button type="button" class="btn btn-lg mt-5 second-a">
+                <a
+                  href=" mailto:lusani.22mphigalale@gmail.com"
+                  class="text-decoration-none a"
+                  >Lusani.22mphigalale@gmail.com
+                </a>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="social-links contact-icons">
+      <a
+        href="https://x.com/Lusani_nica?t=ZKeaxC9fmelsA4NqvsGPIQ&s=09"
+        class="text-decoration-none a">
+        <div>
+          X
+          <i
+            class="fa-solid fa-x icons p-2 g-col-6 contact-icons"
+            style="color: #00060f"></i></div
+      ></a>
+      <a
+        href="https://www.instagram.com/lu.sa.ni?igsh=cTM4cWxoZnplZ3Yw"
+        class="text-decoration-none a">
+        <div>
+          Instagram
+          <i
+            class="fa-brands fa-instagram icons p-2 g-col-6 contact-icons"
+            style="color: #7a041e"></i></div
+      ></a>
+
+      <a href="https://github.com/iamLusani" class="text-decoration-none a">
+        <div class="">
+          GitHub profile
+          <i
+            class="fa-brands fa-github icons p-2 g-col-6 contact-icons"
+            style="color: #cffae2"></i></div
+      ></a>
     </div>
   </body>
 </html>
